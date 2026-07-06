@@ -51,9 +51,9 @@ const ProfessionalSummaryForm = ({ data, onChange, setResumeData }) => {
                     rows={7}
                     placeholder='Write a compelling professional summary that highlights your key strengths and career objectives...'
                     className='w-full p-3 px-4 mt-2 border text-sm border-gray-300 rounded-lg focus:ring focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors resize-none' />
-                <p className='text-xs text-gray-500 max-w-4/5 mx-auto text-center'>
-                    Tip : Keep it concise (3-4 sentences) and focus on your most relevant achievement and skills.
-                </p>
+                <div className='bg-blue-50 p-3 rounded-lg'>
+                    <p className='text-sm text-blue-800'><strong>Tip:</strong> Keep it concise (3-4 sentences) and focus on your most relevant achievement and skills.</p>
+                </div>
             </div>
         </div>
     )

@@ -5,12 +5,14 @@ import Features from '../components/home/Features.jsx'
 import Testimonial from '../components/home/Testimonial.jsx'
 import CTA from '../components/home/CTA.jsx'
 import Footer from '../components/home/Footer.jsx'
+import ProductScroll from '@/components/home/ProductScroll.jsx'
 
 const Home = () => {
   return (
     <div>
       <Banner />
       <Hero />
+      <ProductScroll/>
       <Features />
       <Testimonial />
       <CTA />
